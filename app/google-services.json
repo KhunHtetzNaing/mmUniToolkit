@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "159223332389",
+    "firebase_url": "https://mmunitoolkit.firebaseio.com",
+    "project_id": "mmunitoolkit",
+    "storage_bucket": "mmunitoolkit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159223332389:android:e73b26058e675f1b",
+        "android_client_info": {
+          "package_name": "com.htetznaing.unitoolkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159223332389-6cu9l56936ju7ut05rfg9n2uec8v7rg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVCv-NwMfO1A-l9ODY0L74hFzwEFzUcvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159223332389-6cu9l56936ju7ut05rfg9n2uec8v7rg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

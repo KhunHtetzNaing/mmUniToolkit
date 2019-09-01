@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:TagsEditText="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.CustomizeActivity">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:onClick="chooseFileOrFolder"
+            android:textAllCaps="false"
+            android:text="Choose Folder OR Files"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Path:"
+            android:id="@+id/tv_paths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Custom file extensions. Eg: (.mp3 , .mp4 , .jpg , etc..)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <mabbas007.tagsedittext.TagsEditText
+            android:hint="Type your custom file extensions here!"
+            android:id="@+id/tagsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            TagsEditText:allowSpaceInTag="true"
+            TagsEditText:tagsCloseImageRight="@drawable/tag_close"
+            TagsEditText:tagsBackground="@drawable/square"
+            TagsEditText:tagsCloseImageLeft="@drawable/dot"
+            TagsEditText:tagsTextColor="@color/blackOlive"
+            TagsEditText:tagsTextSize="@dimen/defaultTagsTextSize"
+            TagsEditText:tagsCloseImagePadding="@dimen/defaultTagsCloseImagePadding"/>
+
+        <Switch
+            android:layout_marginTop="10dp"
+            android:id="@+id/changeFolderName"
+            android:text="Change Folder Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:onClick="changeNow"
+            android:textAllCaps="false"
+            android:text="Change!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
