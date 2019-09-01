@@ -1,4 +1,5 @@
 
+#Unicode :unicorn:
 # mmUniToolkit    
  ဇော်ဂျီဖြင့်ရေးသားထားသော ဖုန်းအဆက်အသွယ်များ၊ ဖိုင်အမည်များကို  
   ယူနီကုဒ်သို့ပြောင်းလဲပေးနိုင်သော Tool ဖြစ်ပါသည်။  
@@ -19,6 +20,33 @@
 Senior မဟုတ်သည့်အတွက် ကုဒ်တွေကရှုပ်ပွနေပါတယ် 😁**
 
 ## အသုံးပြုထားသော Library များ
+
+ - [Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit)
+ -  [Myanmar Tools](https://github.com/google/myanmar-tools)
+ -  [Jaudiotagger](https://github.com/AdrienPoupa/jaudiotagger)
+ -  [NoNonsense-FilePicker](https://github.com/spacecowboy/NoNonsense-FilePicker)
+ 
+ # Zawgyi
+# mmUniToolkit    
+ ေဇာ္ဂ်ီျဖင့္ေရးသားထားေသာ ဖုန္းအဆက္အသြယ္မ်ား၊ ဖိုင္အမည္မ်ားကို  
+  ယူနီကုဒ္သို႔ေျပာင္းလဲေပးႏိုင္ေသာ Tool ျဖစ္ပါသည္။  
+  
+## လုပ္ေဆာင္ခ်က္မ်ား  
+  
+ - [x] Contacts  
+ - [x] Files name  
+ - [x] Audio tag (title, artist, lyrics)  
+  
+## လိုအပ္ေနေသးေသာလုပ္ေဆာင္ခ်က္မ်ား  
+  
+ - [ ] SD Card အတြင္းရွိ ဖိုင္အမည္မ်ားအားေျပာင္းလဲေပးျခင္း  
+ - [ ] Notes (Colornote,Keep) အတြင္ရွိစာမ်ားအား ယူနီကုဒ္သို႔ေျပာင္းလဲေပးျခင္း  
+ - [ ] APK name,database မ်ားအား ယူနီကုဒ္သို႔ေျပာင္းလဲေပးျခင္း  
+  
+**က်န္တဲ့လိုအပ္တာေလးေတြ မည္သူမဆိုထပ္ျဖည့္စြက္ႏိုင္ပါတယ္။    
+Senior မဟုတ္သည့္အတြက္ ကုဒ္ေတြကရႈပ္ပြေနပါတယ္ 😁**
+
+## အသုံးျပဳထားေသာ Library မ်ား
 
  - [Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit)
  -  [Myanmar Tools](https://github.com/google/myanmar-tools)
